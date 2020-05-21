@@ -1,19 +1,19 @@
 title: Caeruleum # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  A man with a dream<br/>
-  <a href="mailto:i@wu-kan.cn">
+  |  A man with a dream<br/>
+  <a href="mailto:wangyuxiangorz@gmail.com">
     <i class="fas fa-envelope"></i>
   </a>
-  <a href="https://github.com/wu-kan">
+  <a href="https://github.com/Caeruleum-asdf">
     <i class="fab fa-github"></i>
   </a>
-  <a href="https://codeforces.com/profile/WuK">
+  <a href="https://codeforces.com/profile">
     <i class="fas fa-chart-bar"></i>
   </a>
-  <a href="https://vjudge.net/user/WuK">
+  <a href="https://vjudge.net/user">
     <i class="fas fa-smile"></i>
   </a>
-  <a href="https://www.zhihu.com/people/wu.kan/activities">
+  <a href="https://www.zhihu.com/people">
     <i class="fab fa-zhihu"></i>
   </a>
 url: https://Caeruleum-asdf.github.io # 你的域名，例如 https://wu-kan.github.io
@@ -138,7 +138,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - | # 彩虹滚动条，仅对Chrome系浏览器生效
         <style>
           ::-webkit-scrollbar {
-            width: 3px;
+            width: 8px;
             height: 3px;
           }
           ::-webkit-scrollbar-thumb {
@@ -533,11 +533,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           var myname = "WuK";
           var profile = "https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320";
           var multilingual = true;
-          var myname_hans = "吴坎";
-          var myname_hant = "吴坎";
-          var myname_eng = "WuK";
-          var title = "选择你的支付方式";
-          var subtitle = "跟随进一步的指示以向" + myname + "付款";
+          var myname_hans = "Caeruleum";
+          var myname_hant = "Caeruleum";
+          var myname_eng = "Caeruleum";
+          var title = "Choose payment method";
+          var subtitle = "Follow the instructions to pay to" + myname ;
           var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
         </script>
       - |
@@ -636,7 +636,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           async='async'
           charset='utf-8'
           homePageUrl='/'
-          homePageName='回到我的主页'
+          homePageName='Back to homepage'
         ></script>
 
 # githubpage上支持的插件见<https://pages.github.com/versions/>
